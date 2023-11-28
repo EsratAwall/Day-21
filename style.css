@@ -1,0 +1,80 @@
+/*button*/
+.btn-1{
+    height: 50px;
+    background-color:rgb(228, 34, 73);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size:15px ;
+    padding:15px 30px ;  
+}
+#btn-2{
+    height: 50px;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size:15px ;
+    padding:15px 30px ; 
+    margin-left:10px ;  
+}
+/*button-div*/
+.buttan-div{
+    display: flex;
+}
+
+/*header*/
+.header{
+background-image: url("images/header_bg.png"),url(images/developer.png);
+background-repeat: no-repeat;
+background-position: right bottom,left;
+}
+/*navber*/
+nav{
+display: flex;
+justify-content: space-between;
+margin: 40px 120px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.R{
+    color: brown;
+}
+/*Banner*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-descripation{
+    margin-left: 120px;
+}
+/*Text Design*/
+.Iam{
+    font-size:50px ;
+
+}
+.Mary{
+    font-size:100px ;
+    font-weight: 700;
+}
+/*About Me*/
+.first-section{
+    margin:60px 120px ;
+    background-color: rgb(250, 218, 179);
+    padding:100px 200px ;
+    text-align: center;
+}
+/*about-me-content*/
+.about-me-content{
+    display: flex;
+    justify-content: space-around;
+}
